@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const HomePage = () => {
   return (
     <div>
       {/* navbar */}
@@ -68,9 +68,9 @@ const Hero = () => {
         </div>
       </div>
       {/* about */}
-      
+
     </div>
   );
 };
 
-export default Hero;
+export default HomePage;

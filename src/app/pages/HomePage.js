@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div>
       {/* navbar */}
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 bg-black">
         <div className="navbar-start">
           <div className="dropdown">
             {/* dropdown menu that is hidden on large screens and shown on small screens */}
@@ -36,7 +36,7 @@ const HomePage = () => {
                 <a>About</a>
               </li>
               <li>
-                <a>Experience</a>
+                <a>Work</a>
               </li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ const HomePage = () => {
               <a>About</a>
             </li>
             <li>
-              <a>Experience</a>
+              <a>Work</a>
             </li>
           </ul>
         </div>
@@ -83,7 +83,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* about */}
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-base-200 min-h-screen bg-black">
         <div className="hero-content flex-col lg:flex-row">
           <img src="/image.png" className="max-w-sm rounded-lg shadow-2xl" />
           <div>
@@ -95,7 +95,7 @@ const HomePage = () => {
               passionate about using technology to create impactful solutions
               that promote societal good. My technical skills include
               proficiency in JavaScript, C++, Python and front-end/back-end
-              development in React Node.js, Express, MongoDB, and Firebase.
+              development in React Node.js, Express, and Firebase.
             </p>
             {/* skills, experience, education */}
             <div role="tablist" className="tabs tabs-bordered tabs-lg">
@@ -103,59 +103,115 @@ const HomePage = () => {
                 type="radio"
                 name="my_tabs_1"
                 role="tab"
-                className="tab text-white"
+                className="tab text-white font-bold"
                 aria-label="Skills"
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold">Programming Languages </h1>
-                <h1 className="text-1xl font-bold">Web Development </h1>
-
+                <h1 className="text-1xl font-bold text-pink-700">
+                  Programming Languages{" "}
+                </h1>
+                <div class="grid grid-cols-4 gap-2 pt-2">
+                  <div>C++</div>
+                  <div>JavaScript</div>
+                  <div>Python</div>
+                </div>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  Frameworks and Libraries{" "}
+                </h1>
+                <div class="grid grid-cols-4 gap-2 pt-2">
+                  <div>React</div>
+                  <div>Node.js</div>
+                  <div>Express.js</div>
+                  <div>Next.js</div>
+                  <div>Tailwind CSS</div>
+                </div>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  {" "}
+                  Databases{" "}
+                </h1>
+                <div class="grid grid-cols-4 gap-2 pt-2">
+                  <div>PostgreSQL</div>
+                  <div>Firebase</div>
+                </div>
               </div>
 
               <input
                 type="radio"
                 name="my_tabs_1"
                 role="tab"
-                className="tab text-white"
+                className="tab text-white font-bold"
                 aria-label="Experience"
-                defaultChecked 
+                defaultChecked
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold">Information Technology Staff</h1>
-                <p className="py-1"> - </p>
-                <h1 className="text-1xl font-bold">Full Stack Developer Fellow</h1>
-                <p className="py-1"> Develop full-stack web applications using JavaScript, 
-                  focusing on front-end and back-end technologies with React and Node.js, 
-                  while adopting industry best practices, like MVC architecture and test-driven
-                  deployment. </p>
-                <h1 className="text-1xl font-bold">College Assistant </h1>
-                <p className="py-1"> - </p>
-                <h1 className="text-1xl font-bold">Social Media Assistant </h1>
-                <p className="py-1"> Executed targeted marketing strategies
-                  that increased customer engagement and enhanced brand visibility </p>
+                <h1 className="text-1xl font-bold text-pink-700">
+                  Information Technology Staff
+                </h1>
+                <p> - </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  Full Stack Developer Fellow
+                </h1>
+                <p>
+                  {" "}
+                  Develop full-stack web applications using JavaScript, focusing
+                  on front-end and back-end technologies with React and Node.js,
+                  while adopting industry best practices, like MVC architecture
+                  and test-driven deployment.{" "}
+                </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  College Assistant{" "}
+                </h1>
+                <p> - </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  Social Media Assistant{" "}
+                </h1>
+                <p>
+                  {" "}
+                  Executed targeted marketing strategies that increased customer
+                  engagement and enhanced brand visibility{" "}
+                </p>
               </div>
 
               <input
                 type="radio"
                 name="my_tabs_1"
                 role="tab"
-                className="tab text-white"
+                className="tab text-white font-bold"
                 aria-label="Education"
               />
-               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold">CUNY John Jay College of Criminal Justice </h1>
-                <p className="py-2"> 2022 - 2026 </p>
-                <h1 className="text-1xl font-bold">CodePath: Intermediate Cybersecurity </h1>
-                <p className="py-2"> Fall 2024 </p>
-                <h1 className="text-1xl font-bold">CodePath: Internship Connection Program </h1>
-                <p className="py-2"> Summer 2024 </p>
-                <h1 className="text-1xl font-bold">CodePath: Intro to Cybersecurity </h1>
-                <p className="py-2"> Spring 2024 </p>
-
+              <div role="tabpanel" className="tab-content p-10">
+                <h1 className="text-1xl font-bold text-pink-700">
+                  CUNY John Jay College of Criminal Justice{" "}
+                </h1>
+                <p> 2022 - 2026 </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  CodePath: Intermediate Cybersecurity{" "}
+                </h1>
+                <p> Fall 2024 </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  CodePath: Internship Connection Program{" "}
+                </h1>
+                <p> Summer 2024 </p>
+                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                  CodePath: Intro to Cybersecurity{" "}
+                </h1>
+                <p> Spring 2024 </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      {/* projects */}
+      <h1 className="text-5xl font-bold text-center pb-10">My Work</h1>
+      <div className="flex w-full flex-col lg:flex-row">
+        <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
+          content
+        </div>
+        <div className="divider lg:divider-horizontal"></div>
+        <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
+          content
+        </div>
+        
       </div>
     </div>
   );

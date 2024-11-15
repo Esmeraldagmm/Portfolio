@@ -70,13 +70,13 @@ const HomePage = () => {
         <div className="hero-overlay bg-opacity-20"></div>
         <div className="hero-content text-neutral-content text-left">
           <div className="max-w-md">
-            <h2 className="mb-5 text-3xl font-bold text-white">
+            <h2 className="text-2xl font-bold text-white">
               Software Engineer
             </h2>
-            <h2 className="text-5xl font-bold text-white">
+            <h2 className="text-4xl pt-2 font-bold text-white">
               Hi, I'm <span className="text-royal-blue">Esmeralda</span>
             </h2>
-            <h2 className="mb-5 text-5xl font-bold text-white">
+            <h2 className="mb-5 text-4xl font-bold text-white">
               Computer Science Major at John Jay College
             </h2>
           </div>
@@ -85,8 +85,8 @@ const HomePage = () => {
       {/* about */}
       <div className="hero bg-base-200 min-h-screen bg-black">
         <div className="hero-content flex-col lg:flex-row">
-          <img src="/image.png" className="max-w-sm rounded-lg shadow-2xl" />
-          <div>
+          <img src="/image.png" className="max-w-sm rounded-lg shadow-2xl rounded-full" />
+          <di className="pl-10">
             <h1 className="text-5xl font-bold">About Me</h1>
             <p className="py-6">
               Hello! I'm Esmeralda, a Computer Science and Information Security
@@ -110,7 +110,7 @@ const HomePage = () => {
                 <h1 className="text-1xl font-bold text-pink-700">
                   Programming Languages{" "}
                 </h1>
-                <div class="grid grid-cols-4 gap-2 pt-2">
+                <div class="grid grid-cols-5 gap-2 pt-2">
                   <div>C++</div>
                   <div>JavaScript</div>
                   <div>Python</div>
@@ -118,7 +118,7 @@ const HomePage = () => {
                 <h1 className="text-1xl pt-3 font-bold text-pink-700">
                   Frameworks and Libraries{" "}
                 </h1>
-                <div class="grid grid-cols-4 gap-2 pt-2">
+                <div class="grid grid-cols-5 gap-2 pt-2">
                   <div>React</div>
                   <div>Node.js</div>
                   <div>Express.js</div>
@@ -129,7 +129,7 @@ const HomePage = () => {
                   {" "}
                   Databases{" "}
                 </h1>
-                <div class="grid grid-cols-4 gap-2 pt-2">
+                <div class="grid grid-cols-5 gap-2 pt-2">
                   <div>PostgreSQL</div>
                   <div>Firebase</div>
                 </div>
@@ -145,7 +145,7 @@ const HomePage = () => {
               />
               <div role="tabpanel" className="tab-content p-10">
                 <h1 className="text-1xl font-bold text-pink-700">
-                  Information Technology Staff
+                  IT Support Intern
                 </h1>
                 <p> - </p>
                 <h1 className="text-1xl pt-3 font-bold text-pink-700">
@@ -198,7 +198,7 @@ const HomePage = () => {
                 <p> Spring 2024 </p>
               </div>
             </div>
-          </div>
+          </di>
         </div>
       </div>
       {/* projects */}

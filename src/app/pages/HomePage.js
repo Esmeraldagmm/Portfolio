@@ -84,8 +84,8 @@ const HomePage = () => {
       </div>
       {/* about */}
       <div className="hero bg-base-200 min-h-screen bg-black">
-        <div className="hero-content flex-col lg:flex-row">
-          <img src="/image.png" className="max-w-sm rounded-lg shadow-2xl rounded-full" />
+        <div className="hero-content flex-col lg:flex-row pt-10">
+          <img src="/image.png" className="max-w-sm shadow-2xl rounded-full" />
           <di className="pl-10">
             <h1 className="text-5xl font-bold">About Me</h1>
             <p className="py-6">

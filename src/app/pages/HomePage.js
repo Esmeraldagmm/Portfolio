@@ -27,7 +27,7 @@ const HomePage = () => {
             {/* dropdown menu in small screen */}
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300"
             >
               <li>
                 <a>Home</a>
@@ -42,9 +42,9 @@ const HomePage = () => {
           </div>
           <a className="btn btn-ghost text-xl">Portfolio</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-white  hover:shadow-gray-300">
             <li>
               <a>Home</a>
             </li>
@@ -57,7 +57,7 @@ const HomePage = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact</a>
+          <a className="btn text-white">Contact</a>
         </div>
       </div>
       {/* hero */}
@@ -67,16 +67,16 @@ const HomePage = () => {
           backgroundImage: "url(/nyc.png)",
         }}
       >
-        <div className="hero-overlay bg-opacity-20"></div>
+        <div className="hero-overlay bg-opacity-5"></div>
         <div className="hero-content text-neutral-content text-left">
           <div className="max-w-md">
-            <h2 className="text-2xl font-bold text-white">
+            <h2 className="text-2xl font-bold text-white pl-20">
               Software Engineer
             </h2>
-            <h2 className="text-4xl pt-2 font-bold text-white">
+            <h2 className="text-4xl pt-2 font-bold text-white pl-20">
               Hi, I'm <span className="text-royal-blue">Esmeralda</span>
             </h2>
-            <h2 className="mb-5 text-4xl font-bold text-white">
+            <h2 className="mb-5 text-4xl font-bold text-white pl-20 pb-20">
               Computer Science Major at John Jay College
             </h2>
           </div>
@@ -105,9 +105,10 @@ const HomePage = () => {
                 role="tab"
                 className="tab text-white font-bold"
                 aria-label="Skills"
+                defaultChecked
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-pink-700">
+                <h1 className="text-1xl font-bold text-rose-200">
                   Programming Languages{" "}
                 </h1>
                 <div class="grid grid-cols-5 gap-2 pt-2">
@@ -115,7 +116,7 @@ const HomePage = () => {
                   <div>JavaScript</div>
                   <div>Python</div>
                 </div>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   Frameworks and Libraries{" "}
                 </h1>
                 <div class="grid grid-cols-5 gap-2 pt-2">
@@ -125,7 +126,7 @@ const HomePage = () => {
                   <div>Next.js</div>
                   <div>Tailwind CSS</div>
                 </div>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   {" "}
                   Databases{" "}
                 </h1>
@@ -141,14 +142,13 @@ const HomePage = () => {
                 role="tab"
                 className="tab text-white font-bold"
                 aria-label="Experience"
-                defaultChecked
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-pink-700">
+                <h1 className="text-1xl font-bold text-rose-200">
                   IT Support Intern
                 </h1>
                 <p> - </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   Full Stack Developer Fellow
                 </h1>
                 <p>
@@ -158,11 +158,11 @@ const HomePage = () => {
                   while adopting industry best practices, like MVC architecture
                   and test-driven deployment.{" "}
                 </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   College Assistant{" "}
                 </h1>
                 <p> - </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   Social Media Assistant{" "}
                 </h1>
                 <p>
@@ -180,19 +180,19 @@ const HomePage = () => {
                 aria-label="Education"
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-pink-700">
+                <h1 className="text-1xl font-bold text-rose-200">
                   CUNY John Jay College of Criminal Justice{" "}
                 </h1>
                 <p> 2022 - 2026 </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   CodePath: Intermediate Cybersecurity{" "}
                 </h1>
                 <p> Fall 2024 </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   CodePath: Internship Connection Program{" "}
                 </h1>
                 <p> Summer 2024 </p>
-                <h1 className="text-1xl pt-3 font-bold text-pink-700">
+                <h1 className="text-1xl pt-3 font-bold text-rose-200">
                   CodePath: Intro to Cybersecurity{" "}
                 </h1>
                 <p> Spring 2024 </p>
@@ -202,14 +202,16 @@ const HomePage = () => {
         </div>
       </div>
       {/* projects */}
-      <h1 className="text-5xl font-bold text-center pb-10">My Work</h1>
-      <div className="flex w-full flex-col lg:flex-row">
-        <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
-          content
+      <h1 className="text-5xl font-bold pb-10 text-center">Work</h1>
+      <div className="flex w-full flex-col lg:flex-row lg:items-stretch justify-center pb-10">
+        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-solid border-4 border-blue-400">
+          {/* display projecy one */}
+          <img src="/insta.png" alt="Project One" className="rounded-t-lg object-cover w-full" />
         </div>
+        {/* divide projects */}
         <div className="divider lg:divider-horizontal"></div>
-        <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
-          content
+        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-splid border-4 border-blue-400">
+          <img src="/insta.png" alt="Project Two" className="rounded-t-lg object-cover w-full" />
         </div>
         
       </div>

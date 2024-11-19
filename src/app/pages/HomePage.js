@@ -206,12 +206,12 @@ const HomePage = () => {
       <div className="flex w-full flex-col lg:flex-row lg:items-stretch justify-center pb-10">
         <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-solid border-4 border-blue-400">
           {/* display projecy one */}
-          <img src="/insta.png" alt="Project One" className="rounded-t-lg object-cover w-full" />
+          <img src="/insta.png" alt="Project One" className="rounded-xl object-cover w-full" />
         </div>
         {/* divide projects */}
         <div className="divider lg:divider-horizontal"></div>
-        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-splid border-4 border-blue-400">
-          <img src="/insta.png" alt="Project Two" className="rounded-t-lg object-cover w-full" />
+        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-splid border-4 border-blue-400 bg-white">
+          <img src="/aspire.png" alt="Project Two" className="rounded-xl object-cover w-full" />
         </div>
         
       </div>

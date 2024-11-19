@@ -83,10 +83,10 @@ const HomePage = () => {
         </div>
       </div>
       {/* about */}
-      <div className="hero bg-base-200 min-h-screen bg-black">
-        <div className="hero-content flex-col lg:flex-row pt-10">
+      <div className="hero bg-base-200 pt-10 bg-black">
+        <div className="hero-content flex-col lg:flex-row">
           <img src="/image.png" className="max-w-sm shadow-2xl rounded-full" />
-          <di className="pl-10">
+          <div className="pl-10">
             <h1 className="text-5xl font-bold">About Me</h1>
             <p className="py-6">
               Hello! I'm Esmeralda, a Computer Science and Information Security
@@ -111,7 +111,7 @@ const HomePage = () => {
                 <h1 className="text-1xl font-bold text-rose-200">
                   Programming Languages{" "}
                 </h1>
-                <div class="grid grid-cols-5 gap-2 pt-2">
+                <div className="grid grid-cols-5 gap-2 pt-2">
                   <div>C++</div>
                   <div>JavaScript</div>
                   <div>Python</div>
@@ -198,22 +198,101 @@ const HomePage = () => {
                 <p> Spring 2024 </p>
               </div>
             </div>
-          </di>
+          </div>
         </div>
       </div>
       {/* projects */}
-      <h1 className="text-5xl font-bold pb-10 text-center">Work</h1>
-      <div className="flex w-full flex-col lg:flex-row lg:items-stretch justify-center pb-10">
-        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-solid border-4 border-blue-400">
+      <h1 className="bg-black text-5xl font-bold pb-10 text-center">Work</h1>
+      <div className="bg-black flex w-full flex-col lg:flex-row md:flex-row justify-center pb-10">
+        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg md:max-w-sm sm:max-w-lg border-solid border-4 border-blue-400">
           {/* display projecy one */}
-          <img src="/insta.png" alt="Project One" className="rounded-xl object-cover w-full" />
+          <img
+            src="/insta.png"
+            alt="Project One"
+            className="rounded-xl object-cover w-full"
+          />
         </div>
         {/* divide projects */}
-        <div className="divider lg:divider-horizontal"></div>
-        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg border-splid border-4 border-blue-400 bg-white">
-          <img src="/aspire.png" alt="Project Two" className="rounded-xl object-cover w-full" />
+        <div className="divider lg:divider-horizontal md:divider-horizontal sm:divider"></div>
+        <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg md:max-w-sm sm:max-w-lg border-splid border-4 border-blue-400 bg-white">
+          <img
+            src="/aspire.png"
+            alt="Project Two"
+            className="rounded-xl object-cover w-full"
+          />
         </div>
-        
+      </div>
+      {/* github */}
+      <div className="flex items-center justify-center pb-10">
+        <button className="bg-blue-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center">
+          <img src="/github.png" alt="github icon" className="w-7 h-7" />
+          GitHub
+        </button>
+      </div>
+      {/* contact */}
+      <div className="bg-black items-center pb-20">
+        <div className="hero-content flex-col lg:flex-row-reverse shrink-0">
+          <div className="text-center lg:text-left lg:pl-20">
+            <h1 className="text-5xl font-bold text-center">Contact Me!</h1>
+            {/* resume, email, github */}
+            <div className="grid grid-cols-3 gap-10 pt-10" >
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center">
+                <img src="/email.png" alt="email icon" className="w-10 h-10" />
+                Email
+              </button>
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full">
+                Resume
+              </button>
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center">
+                <img
+                  src="/linkedin.webp"
+                  alt="linkedin icon"
+                  className="w-10 h-10"
+                />
+                LinkedIn
+              </button>
+            </div>
+          </div>
+          {/* input for email message */}
+          <div className="card bg-base-100 w-full max-w-lg shadow-2xl shrink-0 ">
+            <form className="card-body">
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text text-white">Your Name</span>
+                </label>
+                <input
+                  type="name"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text text-white">Your Email</span>
+                </label>
+                <input
+                  type="email"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text text-white">Message</span>
+                </label>
+                <textarea
+                  type="message"
+                  className="input input-bordered"
+                  rows="5"
+                  required
+                />
+              </div>
+              <div className="form-control mt-6">
+                <button className="btn btn-primary bg-blue-400 hover:bg-royal-blue">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );

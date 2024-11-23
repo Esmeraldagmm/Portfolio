@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const HomePage = () => {
@@ -30,13 +31,19 @@ const HomePage = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300"
             >
               <li>
-                <a>Home</a>
+                <a href="#home">
+                  Home
+                </a>
               </li>
               <li>
-                <a>About</a>
+                <a href="#about">
+                  About
+                </a>
               </li>
               <li>
-                <a>Work</a>
+                <a href="#work" >
+                  Work
+                </a>
               </li>
             </ul>
           </div>
@@ -45,19 +52,30 @@ const HomePage = () => {
         <div className="navbar-center hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
           <ul className="menu menu-horizontal px-1 text-white  hover:shadow-gray-300">
-            <li>
-              <a>Home</a>
+            <li> 
+              <a href="#home">
+                Home
+              </a>
             </li>
             <li>
-              <a>About</a>
+              <a href="#about" >
+                About
+              </a>
             </li>
             <li>
-              <a>Work</a>
+              <a href="#work">
+                Work
+              </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-white">Contact</a>
+          <a
+            href="#contact"
+            className="btn text-white"
+          >
+            Contact
+          </a>
         </div>
       </div>
       {/* hero */}
@@ -67,7 +85,7 @@ const HomePage = () => {
           backgroundImage: "url(/nyc.png)",
         }}
       >
-        <div className="hero-overlay bg-opacity-5"></div>
+        <div id="home" className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-neutral-content text-left">
           <div className="max-w-md">
             <h2 className="text-2xl font-bold text-white pl-20">
@@ -83,11 +101,13 @@ const HomePage = () => {
         </div>
       </div>
       {/* about */}
-      <div className="hero bg-base-200 pt-10 bg-black">
+      <h1 id="about" className="text-5xl text-center font-bold pt-10">
+        About Me
+      </h1>
+      <div className="hero bg-base-200  bg-black">
         <div className="hero-content flex-col lg:flex-row">
           <img src="/image.png" className="max-w-sm shadow-2xl rounded-full" />
-          <div className="pl-10">
-            <h1 className="text-5xl font-bold">About Me</h1>
+          <div className="pt-7 pl-10">
             <p className="py-6">
               Hello! I'm Esmeralda, a Computer Science and Information Security
               student at CUNY John Jay College of Criminal Justice, focused on
@@ -108,7 +128,7 @@ const HomePage = () => {
                 defaultChecked
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-rose-200">
+                <h1 className="text-1xl font-bold text-blue-400">
                   Programming Languages{" "}
                 </h1>
                 <div className="grid grid-cols-5 gap-2 pt-2">
@@ -116,7 +136,7 @@ const HomePage = () => {
                   <div>JavaScript</div>
                   <div>Python</div>
                 </div>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   Frameworks and Libraries{" "}
                 </h1>
                 <div class="grid grid-cols-5 gap-2 pt-2">
@@ -126,7 +146,7 @@ const HomePage = () => {
                   <div>Next.js</div>
                   <div>Tailwind CSS</div>
                 </div>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   {" "}
                   Databases{" "}
                 </h1>
@@ -144,11 +164,11 @@ const HomePage = () => {
                 aria-label="Experience"
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-rose-200">
+                <h1 className="text-1xl font-bold text-blue-400">
                   IT Support Intern
                 </h1>
-                <p> - </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <p> </p>
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   Full Stack Developer Fellow
                 </h1>
                 <p>
@@ -158,11 +178,11 @@ const HomePage = () => {
                   while adopting industry best practices, like MVC architecture
                   and test-driven deployment.{" "}
                 </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   College Assistant{" "}
                 </h1>
-                <p> - </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <p> </p>
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   Social Media Assistant{" "}
                 </h1>
                 <p>
@@ -180,19 +200,19 @@ const HomePage = () => {
                 aria-label="Education"
               />
               <div role="tabpanel" className="tab-content p-10">
-                <h1 className="text-1xl font-bold text-rose-200">
+                <h1 className="text-1xl font-bold text-blue-400">
                   CUNY John Jay College of Criminal Justice{" "}
                 </h1>
                 <p> 2022 - 2026 </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   CodePath: Intermediate Cybersecurity{" "}
                 </h1>
                 <p> Fall 2024 </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   CodePath: Internship Connection Program{" "}
                 </h1>
                 <p> Summer 2024 </p>
-                <h1 className="text-1xl pt-3 font-bold text-rose-200">
+                <h1 className="text-1xl pt-3 font-bold text-blue-400">
                   CodePath: Intro to Cybersecurity{" "}
                 </h1>
                 <p> Spring 2024 </p>
@@ -202,15 +222,29 @@ const HomePage = () => {
         </div>
       </div>
       {/* projects */}
-      <h1 className="bg-black text-5xl font-bold pb-10 text-center">Work</h1>
+      <h1 id="work" className="bg-black text-5xl font-bold pb-10 text-center">
+        Work
+      </h1>
       <div className="bg-black flex w-full flex-col lg:flex-row md:flex-row justify-center pb-10">
         <div className="card bg-base-300 rounded-box flex-grow lg:max-w-lg md:max-w-sm sm:max-w-lg border-solid border-4 border-blue-400">
-          {/* display projecy one */}
+          {/* display project one */}
           <img
             src="/insta.png"
             alt="Project One"
             className="rounded-xl object-cover w-full"
           />
+          {/* transition to a description upon hover */}
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl">
+            <div className="text-center text-white">
+              <h3 className="text-2xl font-bold">Insta-Next</h3>
+              <p className="mt-2">
+                Instagram clone built with Next.js and Tailwind CSS. It features
+                a fully functional interface, allowing users to add likes,
+                comments, and posts. Firebase is used to store data such as
+                comments, likes, and images.
+              </p>
+            </div>
+          </div>
         </div>
         {/* divide projects */}
         <div className="divider lg:divider-horizontal md:divider-horizontal sm:divider"></div>
@@ -220,30 +254,37 @@ const HomePage = () => {
             alt="Project Two"
             className="rounded-xl object-cover w-full"
           />
+          {/* transition to a description upon hover */}
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl">
+            <div className="text-center text-white">
+              <h3 className="text-2xl font-bold">Aspire</h3>
+              <p className="mt-2">Social Habit Tracker with AI powered coach</p>
+            </div>
+          </div>
         </div>
       </div>
       {/* github */}
       <div className="flex items-center justify-center pb-10">
-        <button className="bg-blue-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center">
+        <button className="bg-blue-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
           <img src="/github.png" alt="github icon" className="w-7 h-7" />
           GitHub
         </button>
       </div>
       {/* contact */}
-      <div className="bg-black items-center pb-20">
+      <div id="contact" className="bg-black items-center pb-20">
         <div className="hero-content flex-col lg:flex-row-reverse shrink-0">
           <div className="text-center lg:text-left lg:pl-20">
             <h1 className="text-5xl font-bold text-center">Contact Me!</h1>
             {/* resume, email, github */}
-            <div className="grid grid-cols-3 gap-10 pt-10" >
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center">
+            <div className="grid grid-cols-3 gap-10 pt-10">
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
                 <img src="/email.png" alt="email icon" className="w-10 h-10" />
                 Email
               </button>
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full">
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full border-2">
                 Resume
               </button>
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center">
+              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
                 <img
                   src="/linkedin.webp"
                   alt="linkedin icon"
@@ -262,7 +303,7 @@ const HomePage = () => {
                 </label>
                 <input
                   type="name"
-                  className="input input-bordered"
+                  className="input input-bordered focus:border-blue-400"
                   required
                 />
               </div>
@@ -272,7 +313,7 @@ const HomePage = () => {
                 </label>
                 <input
                   type="email"
-                  className="input input-bordered"
+                  className="input input-bordered  focus:border-blue-400"
                   required
                 />
               </div>
@@ -282,13 +323,15 @@ const HomePage = () => {
                 </label>
                 <textarea
                   type="message"
-                  className="input input-bordered"
+                  className="input input-bordered focus:border-blue-400"
                   rows="5"
                   required
                 />
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary bg-blue-400 hover:bg-royal-blue">Submit</button>
+                <button className="btn btn-primary bg-blue-400 hover:bg-royal-blue border-1 border-white">
+                  Submit
+                </button>
               </div>
             </form>
           </div>

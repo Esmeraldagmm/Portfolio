@@ -258,7 +258,7 @@ const HomePage = () => {
       </div>
       {/* github */}
       <div className="flex items-center justify-center pb-10 bg-black">
-        <button className="bg-blue-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
+        <button className="bg-gray-400 hover:bg-slate-300 text-black font-bold py-2 px-4 rounded-full flex items-center border-2">
           <img src="/github.png" alt="github icon" className="w-7 h-7" />
           <a href="https://github.com/Esmeraldagmm" target="_blank">
             GitHub
@@ -267,19 +267,19 @@ const HomePage = () => {
       </div>
       {/* contact */}
       <div id="contact" className="bg-black pb-20 w-full mx-auto pl-10 pr-10 " >
-        <div className="card bg-base-300 min-w-max shadow-xl items-center bg-black">
+        <div className="card min-w-max items-center">
           <div className="card-body items-center">
             <h2 className="card-title">Let's Connect!</h2>
             <p>I am always open to new opportunities and collaborations</p>
             <div className="grid grid-cols-3 gap-10 pt-10">
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
+              <button className="bg-slate-400 hover:bg-slate-300 text-black font-bold py-2 px-4 rounded-full flex items-center border-2">
                 <img src="/email.png" alt="email icon" className="w-10 h-10" />
                 <a href="mailto:esmeraldamenera27@gmail.com"> Email</a>
               </button>
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full border-2">
+              <button className="bg-slate-400 hover:bg-slate-300 text-black font-bold py-2 px-4 rounded-full border-2">
                 <a href="https://drive.google.com/file/d/1Cl6UzQiLUN9WVO0xA1WT4dKLlpg-FQNo/view?usp=sharing" target="_blank">Resume</a>
               </button> 
-              <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
+              <button className="bg-slate-400 hover:bg-slate-300 text-black font-bold py-2 px-4 rounded-full flex items-center border-2">
                 <img src="/linkedin.webp" alt="linkedin icon" className="w-10 h-10"/>
                 <a href="https://www.linkedin.com/in/esmeraldagm/"target="_blank">LinkedIn</a>
               </button>

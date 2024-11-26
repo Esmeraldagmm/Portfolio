@@ -31,19 +31,13 @@ const HomePage = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300"
             >
               <li>
-                <a href="#home">
-                  Home
-                </a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#about">
-                  About
-                </a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#work" >
-                  Work
-                </a>
+                <a href="#work">Work</a>
               </li>
             </ul>
           </div>
@@ -52,28 +46,19 @@ const HomePage = () => {
         <div className="navbar-center hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
           <ul className="menu menu-horizontal px-1 text-white  hover:shadow-gray-300">
-            <li> 
-              <a href="#home">
-                Home
-              </a>
+            <li>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#about" >
-                About
-              </a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#work">
-                Work
-              </a>
+              <a href="#work">Work</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a
-            href="#contact"
-            className="btn text-white"
-          >
+          <a href="#contact" className="btn text-white">
             Contact
           </a>
         </div>
@@ -237,7 +222,7 @@ const HomePage = () => {
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl">
             <div className="text-center text-white">
               <h3 className="text-2xl font-bold">Insta-Next</h3>
-              <p className="mt-2">
+              <p className="mt-2 pl-2 pr-2">
                 Instagram clone built with Next.js and Tailwind CSS. It features
                 a fully functional interface, allowing users to add likes,
                 comments, and posts. Firebase is used to store data such as
@@ -258,82 +243,47 @@ const HomePage = () => {
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl">
             <div className="text-center text-white">
               <h3 className="text-2xl font-bold">Aspire</h3>
-              <p className="mt-2">Social Habit Tracker with AI powered coach</p>
+              <p className="mt-2 pl-2 pr-2">
+                Social habit tracker that combines an AI life coach with a
+                vibrant community to help users stay motivated on their personal
+                growth journeys. With a visual, color-coded calendar for
+                tracking daily progress and habit streaks, Aspire offers
+                personalized support through daily motivational messages and
+                tailored habit suggestions. Built using Express.js, Tailwind
+                CSS, PostgreSQL, Prisma, Supabase, and OpenAI.
+              </p>
             </div>
           </div>
         </div>
       </div>
       {/* github */}
-      <div className="flex items-center justify-center pb-10">
+      <div className="flex items-center justify-center pb-10 bg-black">
         <button className="bg-blue-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
           <img src="/github.png" alt="github icon" className="w-7 h-7" />
-          GitHub
+          <a href="https://github.com/Esmeraldagmm" target="_blank">
+            GitHub
+          </a>
         </button>
       </div>
       {/* contact */}
-      <div id="contact" className="bg-black items-center pb-20">
-        <div className="hero-content flex-col lg:flex-row-reverse shrink-0">
-          <div className="text-center lg:text-left lg:pl-20">
-            <h1 className="text-5xl font-bold text-center">Contact Me!</h1>
-            {/* resume, email, github */}
+      <div id="contact" className="bg-black pb-20 w-full mx-auto pl-10 pr-10 " >
+        <div className="card bg-base-300 min-w-max shadow-xl items-center bg-black">
+          <div className="card-body items-center">
+            <h2 className="card-title">Let's Connect!</h2>
+            <p>I am always open to new opportunities and collaborations</p>
             <div className="grid grid-cols-3 gap-10 pt-10">
               <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
                 <img src="/email.png" alt="email icon" className="w-10 h-10" />
-                Email
+                <a href="mailto:esmeraldamenera27@gmail.com"> Email</a>
               </button>
               <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full border-2">
-                Resume
-              </button>
+                <a href="https://drive.google.com/file/d/1Cl6UzQiLUN9WVO0xA1WT4dKLlpg-FQNo/view?usp=sharing" target="_blank">Resume</a>
+              </button> 
               <button className="bg-blue-400 hover:bg-royal-blue text-white font-bold py-2 px-4 rounded-full flex items-center border-2">
-                <img
-                  src="/linkedin.webp"
-                  alt="linkedin icon"
-                  className="w-10 h-10"
-                />
-                LinkedIn
+                <img src="/linkedin.webp" alt="linkedin icon" className="w-10 h-10"/>
+                <a href="https://www.linkedin.com/in/esmeraldagm/"target="_blank">LinkedIn</a>
               </button>
             </div>
-          </div>
-          {/* input for email message */}
-          <div className="card bg-base-100 w-full max-w-lg shadow-2xl shrink-0 ">
-            <form className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text text-white">Your Name</span>
-                </label>
-                <input
-                  type="name"
-                  className="input input-bordered focus:border-blue-400"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text text-white">Your Email</span>
-                </label>
-                <input
-                  type="email"
-                  className="input input-bordered  focus:border-blue-400"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text text-white">Message</span>
-                </label>
-                <textarea
-                  type="message"
-                  className="input input-bordered focus:border-blue-400"
-                  rows="5"
-                  required
-                />
-              </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-primary bg-blue-400 hover:bg-royal-blue border-1 border-white">
-                  Submit
-                </button>
-              </div>
-            </form>
           </div>
         </div>
       </div>

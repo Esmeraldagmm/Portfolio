@@ -33,7 +33,14 @@ html {
 }
 
 .gradient-color {
-  background: linear-gradient(55deg,#babdc0, #666c70, #babdc0, #464749,#babdc0);
+  background: linear-gradient(
+    55deg,
+    #ffffff,
+    #cad8f4,
+    #ecf5ff,
+    #cad8f4,
+    #babdc0
+  );
   animation: gradient-animation 3s infinite;
 }
 

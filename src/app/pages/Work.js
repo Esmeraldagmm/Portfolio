@@ -3,10 +3,10 @@ import react from "react";
 export function Work() {
   return (
     <div>
-      <h1 id="work" className="bg-black text-4xl font-bold pb-10 text-center">
-        My Work
+      <h1 id="work" className="bg-black text-4xl font-bold text-center">
+        Projects
       </h1>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <div className="carousel rounded-box w-1/2">
           <div className="carousel-item w-full">
             <img src="/aspire.png" className="w-full" alt="Project One" />
@@ -51,8 +51,8 @@ export function Work() {
                 </button>
               </div>
             </div>
-          </div>
-          <div className="carousel-item w-full">
+          </div> */}
+      {/* <div className="carousel-item w-full">
             <img src="/des.png" className="w-full" alt="Project 3" />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl">
               <div className="text-center text-white">
@@ -74,6 +74,24 @@ export function Work() {
               </div>
             </div>
           </div>
+        </div>
+      </div> */}
+
+      <div className="carousel carousel-center bg-black rounded-box flex justify-center space-x-4 p-10">
+        <div className="carousel-item flex-shrink-0">
+          <img
+            src="/aspire.png"
+            className="rounded-box border-4 border-blue-400 object-fill h-100 w-96"
+            alt="Project One"
+          />
+        </div>
+        <div className="divider lg:divider-horizontal md:divider-horizontal sm:divider divide-white"></div>
+        <div className="carousel-item flex-shrink-0">
+          <img
+            src="/insta.png"
+            className="rounded-box border-4 border-blue-400 object-fill h-100 w-96"
+            alt="Project Two"
+          />
         </div>
       </div>
     </div>

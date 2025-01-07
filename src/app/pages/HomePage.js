@@ -6,6 +6,7 @@ import { Footer } from "../pages/Footer";
 import { Skills } from "../pages/Skills";
 import { Temp } from "../pages/temp";
 import { Work } from "../pages/Work";
+import { Education } from "../pages/Education";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       {/* projects */}
       <Work />
       {/* education */}
+      <Education />
       {/* footer */}
       <Footer />
     </div>

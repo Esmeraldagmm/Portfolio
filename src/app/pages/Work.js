@@ -35,12 +35,12 @@ export function Work() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col lg:flex-row items-center bg-gray-800 p-6 rounded-lg shadow-lg space-y-6 lg:space-y-0 lg:space-x-6"
+            className="flex flex-col lg:flex-row items-center bg-gray-900 p-6 rounded-lg shadow-lg space-y-6 lg:space-y-0 lg:space-x-6 mr-10 ml-10"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="rounded-lg border-4 border-blue-400 object-cover w-80 h-48"
+              className="rounded-lg border-4 border-blue-400 object-cover w-80 h-80"
             />
             <div className="lg:w-1/2 text-center lg:text-left">
               <h3 className="text-2xl font-bold mb-4">{project.title}</h3>

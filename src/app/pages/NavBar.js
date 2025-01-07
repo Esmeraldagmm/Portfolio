@@ -39,7 +39,7 @@ export function NavBar() {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#work">Work</a>
+                <a href="#work">Projects</a>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@ export function NavBar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#work">Work</a>
+              <a href="#work">Projects</a>
             </li>
           </ul>
         </div>

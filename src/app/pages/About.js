@@ -6,7 +6,7 @@ export function About() {
       <h1 id="about" className="text-4xl text-center font-bold pt-10 mb-12">
         About Me
       </h1>
-      <div className="flex flex-col lg:flex-row items-start gap-12 bg-black">
+      <div className="flex flex-col lg:flex-row items-start gap-12">
         <div className="lg:w-1/3">
           <img
             src="/image.png"

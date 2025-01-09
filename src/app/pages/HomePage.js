@@ -4,7 +4,6 @@ import { NavBar } from "../pages/NavBar";
 import { About } from "../pages/About";
 import { Footer } from "../pages/Footer";
 import { Skills } from "../pages/Skills";
-import { Temp } from "../pages/temp";
 import { Work } from "../pages/Work";
 import { Education } from "../pages/Education";
 
@@ -17,7 +16,6 @@ const HomePage = () => {
       <About />
       {/* skills */}
       <Skills />
-      <Temp />
       {/* experience */}
       {/* projects */}
       <Work />

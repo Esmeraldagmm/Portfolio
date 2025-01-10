@@ -6,22 +6,17 @@ import { Footer } from "../pages/Footer";
 import { Skills } from "../pages/Skills";
 import { Work } from "../pages/Work";
 import { Education } from "../pages/Education";
+import { Experience } from "../pages/Experience";
 
 const HomePage = () => {
   return (
     <div>
-      {/* navbar and hero */}
       <NavBar />
-      {/* about */}
       <About />
-      {/* skills */}
       <Skills />
-      {/* experience */}
-      {/* projects */}
       <Work />
-      {/* education */}
+      <Experience />
       <Education />
-      {/* footer */}
       <Footer />
     </div>
   );

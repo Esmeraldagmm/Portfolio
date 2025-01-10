@@ -3,17 +3,17 @@ import react from "react";
 export function About() {
   return (
     <div className="container mx-auto px-4">
-      <h1 id="about" className="text-4xl text-center font-bold pt-10 mb-12">
+      <h1 id="about" className="text-4xl text-center font-bold pt-10 mb-10">
         About Me
       </h1>
       <div className="flex flex-col lg:flex-row items-start gap-12">
-        <div className="lg:w-1/3">
+        <div className="lg:w-1/3 ">
           <img
             src="/image.png"
             className="w-full max-w-sm mx-auto shadow-2xl rounded-full"
           />
         </div>
-        <div className="lg:w-2/3">
+        <div className="lg:w-2/3 pt-10">
           <div className="mb-10">
             <p className="mb-4">
               Hello! I'm Esmeralda, a Computer Science and Information Security

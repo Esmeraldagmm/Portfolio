@@ -49,12 +49,12 @@ export function Experience() {
             </h2>
             <h4 className="text-lg text-gray-500 mb-2">Sep 2023 - Present</h4>
             <p className="text-lg text-white font-light">
-              Design engaging flyers to promote departmental services and
-              initiatives at the Math and Science Resource Center,enhancing
-              student awareness and participation by 35%. Utilize office
-              management software to efficiently record and track student data
-              and employee schedules,optimizing organizational processes and
-              enhancing communication.
+              Design engaging flyers and campaigns to promote departmental
+              services and initiatives at the Math and Science Resource
+              Center,enhancing student awareness and participation by 35%.
+              Utilize office management software to efficiently record and track
+              student data,optimizing organizational processes and enhancing
+              communication.
             </p>
           </div>
         </div>

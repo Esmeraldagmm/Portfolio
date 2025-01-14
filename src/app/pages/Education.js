@@ -19,8 +19,8 @@ export function Education() {
             </h3>
             <h4 className="text-lg text-gray-500 mb-2">Jul 2022 - May 2026</h4>
             <p className="text-lg text-white font-light">
-              Gained a strong foundation in computer science and cybersecurity.
-              I am equipped with in software engineering and computer
+              Gaining a strong foundation in computer science and cybersecurity.
+              I am equipped with skills in software engineering and computer
               networking, preparing for a career at the intersection of
               technology and security.
             </p>
@@ -39,7 +39,7 @@ export function Education() {
               Hands-on experience in endpoint and network monitoring using tools
               like SIEMs and HIDS to detect vulnerabilities in endpoints, as
               well as packet sniffing and deploying IDS/IPS systems for network
-              defense
+              defense.
             </p>
           </div>
         </div>
@@ -51,10 +51,8 @@ export function Education() {
             </h2>
             <h4 className="text-lg text-gray-500 mb-2">Jun 2024 - Aug 2024</h4>
             <p className="text-lg text-white font-light">
-              Weekly workshops on professional skills, technical skill building
-              and support, and Key professional development assignments
-              (Resumes, LinkedIn, Elevator Pitches, Impostor Syndrome,
-              Negotiating Salary, and more)
+              Weekly workshops on technical skill building and professional
+              development assignments.
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ export function NavBar() {
   return (
     <div>
       {/* navbar */}
-      <div className="navbar bg-base-100 bg-black">
+      <div className="navbar fixed z-10 bg-black">
         <div className="navbar-start">
           <div className="dropdown">
             {/* dropdown menu that is hidden on large screens and shown on small screens */}
@@ -39,22 +39,40 @@ export function NavBar() {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#work">Projects</a>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#experience">Experience</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="navbar-end hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
-          <ul className="menu menu-horizontal px-1 text-white font-bold hover:shadow-gray-300">
+          <ul className="menu menu-horizontal px-1 text-white font-bold hover:shadow-slate-400">
             <li>
-              <a href="#home">Home</a>
+              <a href="#about">Home</a>
             </li>
             <li>
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#work">Projects</a>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
             </li>
           </ul>
         </div>
@@ -66,21 +84,21 @@ export function NavBar() {
         }}
       >
         <div id="home" className="hero-overlay bg-opacity-0"></div>
-        <div className="hero-content text-neutral-content text-left">
+        <div className="hero-content text-neutral-content text-left mb-40">
           <div className="max-w-md">
             <h2 className="text-3xl text-white font-semibold">
               Software Engineer
             </h2>
             <h2 className="text-5xl pt-2 gradient-text">Esmeralda Gonzalez</h2>
-            <p className="text-white text-lg font-semibold leading-8 pb-40 pt-4 w-[420px]">
+            {/* <p className="text-white text-lg font-semibold leading-8 pb-40 pt-4 w-[420px]">
               {" "}
               I am passionate about using technology to drive meaningful change
               and solve real-world problems.
-            </p>
+            </p> */}
           </div>
         </div>
         {/* contact */}
-        <div className="flex flex-row items-center space-x-4 pt-28 pr-72">
+        <div className="flex flex-row items-center space-x-4 pr-72">
           <a href="https://github.com/Esmeraldagmm" target="_blank">
             <FaGithub className="text-4xl" />
           </a>

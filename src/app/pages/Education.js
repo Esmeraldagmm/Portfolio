@@ -14,9 +14,9 @@ export function Education() {
             <h2 className="text-left font-bold text-xl mb-2">
               John Jay College of Criminal Justice
             </h2>
-            <h3 className="text-xl md:text-2xl text-blue-600 mb-2">
+            <h4 className="text-xl md:text-2xl text-blue-600 mb-2">
               Bachelor of Science in Computer Science and Information Security
-            </h3>
+            </h4>
             <h4 className="text-lg text-gray-500 mb-2">Jul 2022 - May 2026</h4>
             <p className="text-lg text-white font-light">
               Gaining a strong foundation in computer science and cybersecurity.

@@ -2,10 +2,8 @@ import react from "react";
 
 export function About() {
   return (
-    <div className="container mx-auto px-4">
-      <h1 id="about" className="text-4xl text-center font-bold pt-10 mb-10">
-        About Me
-      </h1>
+    <div id="about" className="container mx-auto px-4">
+      <h1 className="text-4xl text-center font-bold pt-10 mb-10">About Me</h1>
       <div className="flex flex-col lg:flex-row items-start gap-12">
         <div className="lg:w-1/3 ">
           <img

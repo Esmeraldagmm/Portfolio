@@ -16,9 +16,15 @@ export function Footer() {
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
-            <FaGithub className="text-4xl" />
-            <FaLinkedin className="text-4xl" />
-            <MdEmail className="text-4xl" />
+            <a href="https://github.com/Esmeraldagmm" target="_blank">
+              <FaGithub className="text-4xl" />
+            </a>
+            <a href="https://www.linkedin.com/in/esmeraldagm/" target="_blank">
+              <FaLinkedin className="text-4xl" />
+            </a>
+            <a href="mailto:esmeraldamenera27@gmail.com">
+              <MdEmail className="text-4xl" />
+            </a>
           </div>
         </nav>
         <aside>

@@ -30,7 +30,7 @@ export function NavBar() {
             {/* dropdown menu in small screen */}
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300 font-nunito"
             >
               <li>
                 <a href="#home">Home</a>
@@ -55,7 +55,7 @@ export function NavBar() {
         </div>
         <div className="navbar-end hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
-          <ul className="menu menu-horizontal px-1 text-white font-bold hover:shadow-slate-400">
+          <ul className="menu menu-horizontal px-1 text-white font-bold hover:shadow-slate-400 font-nunito">
             <li>
               <a href="#about">Home</a>
             </li>
@@ -86,7 +86,7 @@ export function NavBar() {
         <div id="home" className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-neutral-content text-left mb-40">
           <div className="max-w-md">
-            <h2 className="text-3xl text-white font-semibold">
+            <h2 className="text-3xl text-white font-semibold font-nunito">
               Software Engineer
             </h2>
             <h2 className="text-5xl pt-2 gradient-text">Esmeralda Gonzalez</h2>

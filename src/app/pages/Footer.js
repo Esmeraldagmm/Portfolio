@@ -8,11 +8,21 @@ export function Footer() {
     <div>
       <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">About</a>
-          <a className="link link-hover">Skills</a>
-          <a className="link link-hover">Projects</a>
-          <a className="link link-hover">Experience</a>
-          <a className="link link-hover">Education</a>
+          <a className="link link-hover" href="#about">
+            About
+          </a>
+          <a className="link link-hover" href="#skills">
+            Skills
+          </a>
+          <a className="link link-hover" href="#projects">
+            Projects
+          </a>
+          <a className="link link-hover" href="#experience">
+            Experience
+          </a>
+          <a className="link link-hover" href="#education">
+            Education
+          </a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">

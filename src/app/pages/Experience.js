@@ -17,7 +17,7 @@ export function Experience() {
               IT Support Intern
             </h2>
             <h4 className="text-lg text-gray-500 mb-2 font-nunito">
-              Jul 2024 - Present
+              Dec 2024 - Present
             </h4>
             <p className="text-lg text-white font-light font-nunito">
               Assess and identify technology needs, assist with the set up of

@@ -86,7 +86,7 @@ export function NavBar() {
         <div id="home" className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-neutral-content text-left mb-40">
           <div className="max-w-md">
-            <h2 className="text-3xl text-white font-semibold font-nunito">
+            <h2 className="text-3xl text-white font-bold font-nunito">
               Software Engineer
             </h2>
             <h2 className="text-5xl pt-2 gradient-text">Esmeralda Gonzalez</h2>

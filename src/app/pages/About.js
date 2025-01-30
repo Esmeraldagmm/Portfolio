@@ -33,7 +33,7 @@ export function About() {
             </p>
             <p className="mb-4 leading-8">
               I'm always eager to learn, create, and grow, exploring new
-              technologies.
+              technologies!
             </p>
           </div>
         </div>

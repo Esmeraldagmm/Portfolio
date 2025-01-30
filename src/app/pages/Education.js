@@ -22,7 +22,7 @@ export function Education() {
             <h4 className="text-lg font-nunito text-gray-500 mb-2">
               Jul 2022 - May 2026
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Gaining a strong foundation in computer science and cybersecurity
               preparing for a career at the intersection of technology and
               security.
@@ -38,7 +38,7 @@ export function Education() {
             <h4 className="text-lg font-nunito text-gray-500 mb-2">
               Sep 2024 - Dec 2024
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Cybersecurity course emphasizing core Blue Team defense concepts
               essential for security operations. Hands-on experience in endpoint
               and network monitoring using tools like SIEMs and HIDS to detect
@@ -56,7 +56,7 @@ export function Education() {
             <h4 className="text-lg font-nunito text-gray-500 mb-2">
               Jun 2024 - Aug 2024
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Workshops on technical skill building and professional development
               assignments.
             </p>

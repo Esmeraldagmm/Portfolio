@@ -19,7 +19,7 @@ export function Experience() {
             <h4 className="text-lg text-gray-500 mb-2 font-nunito">
               Dec 2024 - Present
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Assess and identify technology needs, assist with the set up of
               computer equipment, and troubleshoot hardware and software issues
               in collaboration with the DOE Help Center. Monitor equipment for
@@ -36,7 +36,7 @@ export function Experience() {
             <h4 className="text-lg text-gray-500 mb-2 font-nunito">
               Aug 2024 - Present
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Develop full-stack web applications using JavaScript,focusing on
               front-end and back-end technologies with React and Node.js, while
               adopting best practices like MVC architecture and test-driven
@@ -55,7 +55,7 @@ export function Experience() {
             <h4 className="text-lg text-gray-500 mb-2 font-nunito">
               Sep 2023 - Present
             </h4>
-            <p className="text-lg text-white font-light font-nunito">
+            <p className="text-lg text-white font-light font-nunito leading-8">
               Design engaging flyers and campaigns to promote departmental
               services and initiatives at the Math and Science Resource Center,
               enhancing student awareness and participation by 35%. Utilize

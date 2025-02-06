@@ -16,7 +16,7 @@ export function Skills() {
       </h1>
       <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 md:grid-cols-3 gap-x-8">
         {/* programmming languages */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 gap-y-4">
           <div className="bg-blue-400 rounded-t-xl p-8">
             <h2 className="text-center font-bold text-xl font-lora">
               Programming Languages
@@ -66,7 +66,7 @@ export function Skills() {
           </div>
         </div>
         {/* frameworks and libraries */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 gap-y-4">
           <div className="bg-blue-400 rounded-t-xl p-8">
             <h2 className="text-center font-bold text-xl font-lora">
               Frameworks and Libraries
@@ -124,7 +124,7 @@ export function Skills() {
           </div>
         </div>
         {/* databases */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 gap-y-4">
           <div className="bg-blue-400 rounded-t-xl p-8">
             <h2 className="text-center font-bold text-xl font-lora">
               Databases

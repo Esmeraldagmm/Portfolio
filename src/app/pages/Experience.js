@@ -11,7 +11,7 @@ export function Experience() {
       </h1>
       <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 md:grid-cols-3 gap-x-8">
         {/* IT Intern */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold text-xl mb-2 font-lora">
               IT Support Intern
@@ -23,12 +23,12 @@ export function Experience() {
               Assess and identify technology needs, assist with the set up of
               computer equipment, and troubleshoot hardware and software issues
               in collaboration with the DOE Help Center. Monitor equipment for
-              timely repairs, and provide support for technology. usage.
+              timely repairs, and provide support for technology usage.
             </p>
           </div>
         </div>
         {/* CTP Web-Dev Fellow */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold text-xl mb-2 font-lora">
               Web Development Fellow
@@ -37,7 +37,7 @@ export function Experience() {
               Aug 2024 - Present
             </h4>
             <p className="text-lg text-white font-light font-nunito leading-8">
-              Develop full-stack web applications using JavaScript,focusing on
+              Develop full-stack web applications using JavaScript, focusing on
               front-end and back-end technologies with React and Node.js, while
               adopting best practices like MVC architecture and test-driven
               deployment. Collaborate in teams to design, develop, and deploy
@@ -47,7 +47,7 @@ export function Experience() {
           </div>
         </div>
         {/* College Assistant */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold text-xl mb-2 font-lora">
               College Assistant

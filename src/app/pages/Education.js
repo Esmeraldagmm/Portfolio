@@ -11,7 +11,7 @@ export function Education() {
       </h1>
       <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 md:grid-cols-3 gap-x-8">
         {/* John Jay */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold font-lora text-xl mb-2">
               John Jay College of Criminal Justice
@@ -30,7 +30,7 @@ export function Education() {
           </div>
         </div>
         {/* CodePath Cybersecurity */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold font-lora text-xl mb-2">
               CodePath Cybersecurity
@@ -48,7 +48,7 @@ export function Education() {
           </div>
         </div>
         {/* CodePath Internship Connection Program */}
-        <div className="rounded-3xl flex flex-col bg-gray-900 bg-opacity-80 gap-y-4">
+        <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <h2 className="text-left font-bold font-lora text-xl mb-2">
               CodePath Internship Connection Program

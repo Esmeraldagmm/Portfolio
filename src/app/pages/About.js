@@ -15,26 +15,30 @@ export function About() {
         </div>
         <div className="lg:w-2/3">
           <div className="mb-10 font-nunito">
-            <p className="mb-4 leading-8">
+            <p className="mb-4 leading-9">
               Hello! I'm Esmeralda, a Computer Science and Information Security
-              student at CUNY John Jay College of Criminal Justice, focused on
-              full-stack development.
+              student at John Jay College, focused on full-stack development.
             </p>
-            <p className="mb-4 leading-8">
-              I love buildiing innovative and impactful solutions, always
-              seeking new challenges in the ever-evolving tech landscape.
+            <p className="mb-4 leading-9">
+              I love buildiing innovative and impactful solutions. I am always
+              seeking new challenges to learn, create, and grow!
             </p>
-            <p className="mb-4 leading-8">
+            <p className="mb-4 leading-9">
               My technical toolkit includes proficiency in JavaScript, C++, and
               Python, along with hands-on experience in full-stack development
               using React, Node.js, Express.js, and Firebase. My background in
               cybersecurity gives me a well-rounded perspective on building
               secure applications.
             </p>
-            <p className="mb-4 leading-8">
-              I'm always eager to learn, create, and grow, exploring new
-              technologies!
-            </p>
+            <button className="text-blue-400 border-2 border-blue-400 px-6 py-3 rounded-full mx-auto block hover:bg-blue-400 hover:text-white transition">
+              <a
+                href="https://drive.google.com/file/d/1fWLIyh34B0b5x3Y9Vwl3W0cqWi9ypHYX/view?usp=sharing"
+                target="_blank"
+                className="block"
+              >
+                View Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>

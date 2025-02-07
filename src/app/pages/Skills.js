@@ -1,4 +1,5 @@
-import react from "react";
+import React from "react";
+import Image from "next/image";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
@@ -14,7 +15,7 @@ export function Skills() {
       <h1 className="text-4xl text-center font-bold font-playfair pt-10 mb-12">
         Skills
       </h1>
-      <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 md:grid-cols-3 gap-x-8">
+      <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-8">
         {/* programmming languages */}
         <div className="rounded-3xl flex flex-col bg-slate-900 gap-y-4">
           <div className="bg-blue-400 rounded-t-xl p-8">
@@ -25,41 +26,51 @@ export function Skills() {
           <div className="flex flex-wrap justify-center gap-6 p-4font-nunito">
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">C++</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg"
                 alt="C++"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">JavaScript</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/JavaScript.svg"
                 alt="JavaScript"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">HTML</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/HTML5.svg"
                 alt="HTML"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">CSS</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/CSS3.svg"
                 alt="HTML"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Python</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Python.svg"
                 alt="Python"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
@@ -75,49 +86,61 @@ export function Skills() {
           <div className="flex flex-wrap justify-center gap-6 p-4 font-nunito">
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">React </p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/React.svg"
                 alt="React"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Node.js</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Node.js.svg"
                 alt="Node.js"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Express.js</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Express.svg"
                 alt="Express.js"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Next.js</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Next.js.svg"
                 alt="Next.js"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Tailwind CSS</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg"
                 alt="Tailwind CSS"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Vite.js</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Vite.js.svg"
                 alt="Vite.js"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
@@ -133,17 +156,21 @@ export function Skills() {
           <div className="flex flex-wrap justify-center gap-6 p-4 font-nunito">
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">PostgreSQL</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/PostgresSQL.svg"
                 alt="PostreSQL"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>
             <div className="flex items-center gap-2">
               <p className="text-xl md:text-2xl">Firebase</p>
-              <img
+              <Image
                 src="https://icon.icepanel.io/Technology/svg/Firebase.svg"
                 alt="Firebase"
+                width={300}
+                height={300}
                 className="w-10 h-10"
               />
             </div>

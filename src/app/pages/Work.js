@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export function Work() {
   return (
@@ -13,9 +14,11 @@ export function Work() {
         {/* Aspire */}
         <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
-            <img
+            <Image
               src="/aspire.png"
               alt="Aspire"
+              width={300}
+              height={300}
               className="w-80 h-80 mb-4 mx-auto border border-slate-700 rounded-lg"
             />
             <h2 className="text-center font-bold text-xl mb-2 font-lora">
@@ -46,9 +49,11 @@ export function Work() {
         {/* Insta-next*/}
         <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
-            <img
+            <Image
               src="/insta.png"
               alt="Insta"
+              width={300}
+              height={300}
               className="w-80 h-80 mb-4 mx-auto border border-slate-700 rounded-lg"
             />
             <h2 className="text-center font-bold text-xl mb-2 font-lora">
@@ -77,9 +82,11 @@ export function Work() {
         {/* DES */}
         <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
-            <img
+            <Image
               src="/des.png"
               alt="DES"
+              width={300}
+              height={300}
               className="w-80 h-80 mb-4 mx-auto border-2 border-slate-700 rounded-lg"
             />
             <h2 className="text-center font-bold text-xl mb-2 font-lora">

@@ -1,4 +1,5 @@
-import react from "react";
+import React from "react";
+import Image from "next/image";
 
 export function About() {
   return (
@@ -6,21 +7,25 @@ export function About() {
       <h1 className="text-4xl text-center font-bold font-playfair pt-10 mb-10 mt-5">
         About Me
       </h1>
-      <div className="flex flex-col lg:flex-row items-start gap-12">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
         <div className="lg:w-1/3 ">
-          <img
+          <Image
             src="/image.png"
+            alt="Profile Picture"
+            width={300}
+            height={300}
             className="w-full max-w-sm mx-auto shadow-2xl rounded-full"
           />
         </div>
         <div className="lg:w-2/3">
           <div className="mb-10 font-nunito">
             <p className="mb-4 leading-9">
-              Hello! I'm Esmeralda, a Computer Science and Information Security
-              student at John Jay College, focused on full-stack development.
+              Hello! I&apos;m Esmeralda, a Computer Science and Information
+              Security student at John Jay College of Criminal Justice, focused
+              on full-stack development.
             </p>
             <p className="mb-4 leading-9">
-              I love buildiing innovative and impactful solutions. I am always
+              I love building innovative and impactful solutions. I am always
               seeking new challenges to learn, create, and grow!
             </p>
             <p className="mb-4 leading-9">

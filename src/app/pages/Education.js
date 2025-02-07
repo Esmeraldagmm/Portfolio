@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 export function Education() {
   return (
@@ -9,7 +9,7 @@ export function Education() {
       <h1 className="text-4xl text-center font-bold font-playfair pt-10 mb-12">
         Education
       </h1>
-      <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 md:grid-cols-3 gap-x-8">
+      <div className="w-full max-w-screen-2xl px-8 gap-y-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-8">
         {/* John Jay */}
         <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">

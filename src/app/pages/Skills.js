@@ -1,10 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
-import { RiTailwindCssFill } from "react-icons/ri";
 
 export function Skills() {
   return (

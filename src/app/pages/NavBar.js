@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -55,24 +55,54 @@ export function NavBar() {
         </div>
         <div className="navbar-end hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
-          <ul className="menu menu-horizontal px-1 text-white font-bold hover:shadow-slate-400 font-nunito">
+          <ul className="menu menu-horizontal px-1 text-white font-nunito">
             <li>
-              <a href="#about">Home</a>
+              <a
+                href="#about"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a
+                href="#about"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a
+                href="#skills"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a
+                href="#projects"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <a
+                href="#experience"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                Experience
+              </a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a
+                href="#education"
+                className="hover:text-gray-200 transition-colors duration-200"
+              >
+                Education
+              </a>
             </li>
           </ul>
         </div>
@@ -90,11 +120,6 @@ export function NavBar() {
               Software Engineer
             </h2>
             <h2 className="text-5xl pt-2 gradient-text">Esmeralda Gonzalez</h2>
-            {/* <p className="text-white text-lg font-semibold leading-8 pb-40 pt-4 w-[420px]">
-              {" "}
-              I am passionate about using technology to drive meaningful change
-              and solve real-world problems.
-            </p> */}
           </div>
         </div>
         {/* contact */}

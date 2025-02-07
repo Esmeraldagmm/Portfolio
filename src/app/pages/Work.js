@@ -46,7 +46,7 @@ export function Work() {
             </div>
           </div>
         </div>
-        {/* Insta-next*/}
+        {/* Instagram*/}
         <div className="rounded-3xl flex flex-col bg-slate-900 bg-opacity-80 gap-y-4">
           <div className="border-t-4 border-t-blue-400 rounded-t-xl p-8">
             <Image

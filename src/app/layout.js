@@ -13,11 +13,14 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Esmeralda's Portfolio",
+  title: "Esmeralda Gonzalez Portfolio",
   description: "",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
-// root layout 
+// root layout
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

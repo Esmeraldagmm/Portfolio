@@ -123,7 +123,7 @@ export function NavBar() {
           </div>
         </div>
         {/* contact */}
-        <div className="flex flex-row items-center space-x-4 pr-72">
+        <div className="flex flex-row items-center space-x-4 pr-60 pt-10">
           <a href="https://github.com/Esmeraldagmm" target="_blank">
             <FaGithub className="text-4xl" />
           </a>

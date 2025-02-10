@@ -15,9 +15,6 @@ const geistMono = localFont({
 export const metadata = {
   title: "Esmeralda Gonzalez Portfolio",
   description: "",
-  icons: {
-    icon: "/logo.png",
-  },
 };
 
 // root layout

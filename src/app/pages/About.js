@@ -19,16 +19,16 @@ export function About() {
         </div>
         <div className="lg:w-2/3 ">
           <div className="mb-10 font-nunito">
-            <p className="mb-4 leading-9 sm:pl-5 sm:pr-5">
+            <p className="mb-4 leading-9">
               Hello! I&apos;m Esmeralda, a Computer Science and Information
               Security student at John Jay College of Criminal Justice, focused
               on full-stack development.
             </p>
-            <p className="mb-4 leading-9 sm:pl-5 sm:pr-5">
+            <p className="mb-4 leading-9">
               I love building innovative and impactful solutions. I am always
               seeking new challenges to learn, create, and grow!
             </p>
-            <p className="mb-4 leading-9 sm:pl-5 sm:pr-5">
+            <p className="mb-4 leading-9">
               My technical toolkit includes proficiency in JavaScript, C++, and
               Python, along with hands-on experience in full-stack development
               using React, Node.js, Express.js, and Firebase. My background in

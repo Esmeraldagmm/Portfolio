@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 export function Footer() {
   return (
     <div>
-      <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
+      <footer className="footer footer-center bg-base-200 text-base-content rounded p-10 font-rubik">
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover" href="#about">
             About

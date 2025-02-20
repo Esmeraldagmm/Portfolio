@@ -15,9 +15,7 @@ module.exports = {
         "royal-blue": "#0000FF",
       },
       fontFamily: {
-        nunito: ["Nunito", "serif"],
-        playfair: ["Playfair Display", "serif"],
-        lora: ["Lora", "serif"],
+        rubik: ["Rubik", "serif"],
       },
     },
   },

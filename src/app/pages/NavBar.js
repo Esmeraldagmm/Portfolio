@@ -30,7 +30,7 @@ export function NavBar() {
             {/* dropdown menu in small screen */}
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300 font-nunito"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow-gray-300 hover:shadow-gray-300 font-rubik"
             >
               <li>
                 <a href="#home">Home</a>
@@ -55,7 +55,7 @@ export function NavBar() {
         </div>
         <div className="navbar-end hidden lg:flex hover:shadow-gray-300">
           {/* large screen nav bar options */}
-          <ul className="menu menu-horizontal px-1 text-white font-nunito">
+          <ul className="menu menu-horizontal px-1 text-white font-rubik">
             <li>
               <a
                 href="#about"
@@ -114,25 +114,26 @@ export function NavBar() {
         }}
       >
         <div id="home" className="hero-overlay bg-opacity-0"></div>
-        <div className="hero-content text-neutral-content text-left mb-40">
-          <div className="max-w-md">
-            <h2 className="text-3xl text-white font-bold font-nunito">
-              Software Engineer
-            </h2>
-            <h2 className="text-5xl pt-2 gradient-text">Esmeralda Gonzalez</h2>
+        <div className="hero-content text-neutral-content text-left font-rubik mb-40">
+          <div className="max-w-2xl flex-col items-start space-y-4">
+            <h2 className="text-4xl text-white font-bold">Software Engineer</h2>
+            <h2 className="text-5xl gradient-text">Esmeralda Gonzalez</h2>
+            {/* contact */}
+            <div className="flex flex-row items-center space-x-4">
+              <a href="https://github.com/Esmeraldagmm" target="_blank">
+                <FaGithub className="text-4xl text-white" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/esmeraldagm/"
+                target="_blank"
+              >
+                <FaLinkedin className="text-4xl text-white" />
+              </a>
+              <a href="mailto:esmeraldamenera27@gmail.com">
+                <MdEmail className="text-4xl text-white" />
+              </a>
+            </div>
           </div>
-        </div>
-        {/* contact */}
-        <div className="flex flex-row items-center space-x-4 pr-72">
-          <a href="https://github.com/Esmeraldagmm" target="_blank">
-            <FaGithub className="text-4xl" />
-          </a>
-          <a href="https://www.linkedin.com/in/esmeraldagm/" target="_blank">
-            <FaLinkedin className="text-4xl" />
-          </a>
-          <a href="mailto:esmeraldamenera27@gmail.com">
-            <MdEmail className="text-4xl" />
-          </a>
         </div>
       </div>
     </div>

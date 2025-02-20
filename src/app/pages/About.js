@@ -4,8 +4,8 @@ import Image from "next/image";
 export function About() {
   return (
     <div id="about" className="container mx-auto px-4">
-      <h1 className="text-4xl text-center font-bold font-playfair pt-10 mb-10 mt-5">
-        About Me
+      <h1 className="text-4xl text-center font-bold font-rubik pt-10 mb-10 mt-5">
+        ABOUT ME
       </h1>
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
         <div className="lg:w-1/3 ">
@@ -18,7 +18,7 @@ export function About() {
           />
         </div>
         <div className="lg:w-2/3 ">
-          <div className="mb-10 font-nunito">
+          <div className="mb-10 font-rubik">
             <p className="mb-4 leading-9">
               Hello! I&apos;m Esmeralda, a Computer Science and Information
               Security student at John Jay College of Criminal Justice, focused
